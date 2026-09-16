@@ -4,6 +4,8 @@ frontend:
   phases:
     preBuild:
       commands:
+        - nvm use 22
+        - node --version
         - npm install -g pnpm
         - pnpm install --frozen-lockfile
 
