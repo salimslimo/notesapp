@@ -6,7 +6,7 @@ frontend:
       commands:
         - nvm use 24
         - node --version
-        - corepack enable
+        - npm install -g pnpm@12.4.2
         - pnpm --version
         - pnpm install --frozen-lockfile
 
