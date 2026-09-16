@@ -24,6 +24,13 @@
     "test": "vitest",
     "test:run": "vitest run"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp",
+      "unrs-resolver"
+    ]
+  },
   "dependencies": {
     "next": "latest",
     "react": "^19",
