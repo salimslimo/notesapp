@@ -1,6 +1,7 @@
 {
   "name": "next-js-docker-sample",
   "version": "0.0.1",
+  "packageManager": "pnpm@12.4.2",
   "homepage": "https://github.com/kristiyan-velkov/docker-nextjs-sample",
   "author": {
     "name": "Kristiyan Velkov",
